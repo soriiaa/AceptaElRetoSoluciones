@@ -18,8 +18,15 @@ public class Problema774 {
 		} else {
 
 			String tira = in.nextLine();
+			
+			char[] arrayTiraChar = tira.toCharArray();
+			String[] arrayTiraString = new String[arrayTiraChar.length - 1];
+			
+			for (int i = 0; i < arrayTiraChar.length; i++) {
+				
+			}
 
-			String[] arrayTiraString = tira.split(" ");
+
 
 			ArrayList<Integer> listaTira = new ArrayList<>();
 			HashSet<Integer> numeros = new HashSet<>();
